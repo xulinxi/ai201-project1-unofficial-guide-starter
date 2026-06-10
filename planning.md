@@ -73,6 +73,8 @@ Why this model fits this corpus:
 
 Runner-up considered: `BAAI/bge-small-en-v1.5` — same size and dimensions, better retrieval benchmarks (MTEB ~62 vs ~56), a 512-token window that would have allowed 1,500-character chunks, and asymmetric-search tuning that matches the short-query → longer-passage pattern. Rejected for the first build because it requires a special query prefix ("Represent this sentence for searching relevant passages: …") that silently degrades retrieval if forgotten — an avoidable failure mode in a first RAG system — and because MiniLM is the course-standard stack with far more debugging references.
 
+**Distance threshold (calibrated in Milestone 4):** cosine distance **0.5** for the "not covered in my documents" guard. Measured on the real index: every evaluation query's best hit scores below 0.5 (range 0.171–0.470), while the deliberately out-of-scope query ("how do I apply for financial aid?") bottoms out at 0.542 — so 0.5 cleanly separates answerable from unanswerable on this corpus.
+
 **Top-k:** 5. The corpus is ~75–90 chunks, so k=5 retrieves the top ~6% — enough to give the LLM multiple independent opinions for subjective questions (e.g., meal plan vs. groceries, where the good answer synthesizes several commenters), while small enough that off-topic chunks don't crowd the context and invite the model to answer from the wrong source. Too few (k=1–2) would break exactly the multi-opinion questions; too many (k=10+, an eighth of the index) would routinely pull in irrelevant chunks because there simply aren't 10 relevant ones for most queries.
 
 **Production tradeoff reflection:** If this served real users at scale and cost weren't a constraint, the criteria would shift:
