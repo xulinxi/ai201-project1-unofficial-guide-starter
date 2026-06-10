@@ -152,8 +152,8 @@ QUERY FLOW (per question)                       │ same collection
                                                 ▼
  ┌──────────────┐    ┌──────────────────┐    ┌─────────────────────────────┐
  │ user question│    │ embed query with │    │ ④  RETRIEVAL                │
- │ via CLI      │ ─▶ │ the SAME model   │ ─▶ │ ChromaDB similarity search  │
- │ (query.py)   │    │ all-MiniLM-L6-v2 │    │ top-k = 5 chunks + scores   │
+ │ CLI(query.py)│ ─▶ │ the SAME model   │ ─▶ │ ChromaDB similarity search  │
+ │ or UI(app.py)│    │ all-MiniLM-L6-v2 │    │ top-k = 5 chunks + scores   │
  └──────────────┘    └──────────────────┘    │ low best-score → "not       │
                                              │ covered in my documents"    │
                                              └──────────────┬──────────────┘
@@ -192,7 +192,7 @@ I plan to use AI (Claude Code) for every implementation stage of the pipeline, d
 
 **Milestone 5 — Generation and interface:**
 - *Input:* the Domain section, Anticipated Challenges #3–5 (contradictory opinions, stale facts, out-of-scope queries), and the project requirement that answers be grounded with source attribution.
-- *Expected output:* a `generate(query)` function calling Groq `llama-3.3-70b-versatile` with a system prompt that (a) restricts answers to the retrieved chunks only, (b) requires a source citation (document title + date) for every claim, (c) presents disagreement between commenters as disagreement, and (d) declines when the best similarity score is below the threshold from Milestone 4. Plus a simple CLI loop (`python query.py`) as the query interface.
+- *Expected output:* a `generate(query)` function calling Groq `llama-3.3-70b-versatile` with a system prompt that (a) restricts answers to the retrieved chunks only, (b) requires a source citation (document title + date) for every claim, (c) presents disagreement between commenters as disagreement, and (d) declines when the best similarity score is below the threshold from Milestone 4. Plus a simple CLI loop (`python query.py`) as the query interface, and a thin Gradio web UI (`python app.py`) over the same `ask()` function for the demo video.
 - *Verification:* ask a question whose answer I know is *not* in the corpus and confirm it declines rather than answers; ask the meal-plan question and confirm both sides of the disagreement appear with attribution; confirm every response names its source documents.
 
 **Evaluation report:**
