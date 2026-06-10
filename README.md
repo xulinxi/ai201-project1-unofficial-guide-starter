@@ -9,31 +9,28 @@
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+**Campus survival guide for Stanford University.** This system makes searchable the unofficial, experience-based knowledge Stanford students share with each other: how the housing draw actually works, whether the meal plan beats buying groceries, how to keep a bike from getting stolen, how many hard classes a freshman can realistically stack, and what campus culture actually feels like. None of this lives in official channels — Stanford's R&DE and registrar pages describe policies, not lived experience, cost math, or candid dorm reviews — so the real answers are scattered across r/stanford threads and student newspaper columns that are hard to find and disappear into feed history.
 
 ---
 
 ## Document Sources
 
-<!-- List every source you collected documents from.
-     Be specific: include URLs, subreddit names, forum thread titles, or file names.
-     Aim for variety — sources that together cover different subtopics or perspectives. -->
-
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | "Throw down any advice for incoming freshmen" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1kpj9n5/ → `documents/01-frosh-advice-thread.txt` |
+| 2 | "any advice for incoming freshman" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1hkh40s/ → `documents/02-incoming-freshman-advice.txt` |
+| 3 | "How would you describe Stanford students and the Stanford vibe?" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1k632oh/ → `documents/03-stanford-vibe-and-culture.txt` |
+| 4 | "Which is better: on-campus or off-campus accommodation?" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1k4ypka/ → `documents/04-on-vs-off-campus-housing.txt` |
+| 5 | "Mirrielees: pros, cons, how to live there next year" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1b6i14k/ → `documents/05-mirrielees-dorm-review.txt` |
+| 6 | "Randomly assigned to theme house in housing draw" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/ovgzlv/ → `documents/06-housing-draw-theme-house.txt` |
+| 7 | "Opinions on meal plan vs buying groceries for grad students" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1etuyis/ → `documents/07-meal-plan-vs-groceries.txt` |
+| 8 | "Use meal plan swipe in one dining hall but go to another?" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1j30bzv/ → `documents/08-dining-hall-swipes.txt` |
+| 9 | "Best way to keep your bike safe?" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1kc0zfk/ → `documents/09-bike-theft-prevention.txt` |
+| 10 | "Practical Course Planning Advice for QR Track (Math + CS)" | Reddit thread (r/stanford) | https://www.reddit.com/r/stanford/comments/1kgznfz/ → `documents/10-course-planning-math-cs.txt` |
+| 11 | "What I wish I knew…" (Katie Kramon, 2013) | Stanford Daily article | https://stanforddaily.com/2013/09/16/what-i-wish-i-knew/ → `documents/11-daily-what-i-wish-i-knew.txt` |
+| 12 | "Top 5 tips for freshmen" (Sophia Dao, 2014) | Stanford Daily article | https://stanforddaily.com/2014/09/20/top-5-tips-for-freshmen/ → `documents/12-daily-top-5-frosh-tips.txt` |
+
+**How the documents were collected:** Direct Reddit access (including `.json` endpoints) is blocked (HTTP 403) from this environment, so r/stanford threads were retrieved through the pullpush.io archive API (submission text plus comments per thread). Stanford Daily articles were fetched directly. Raw content was cleaned by hand: duplicate archive snapshots deduplicated, deleted/bot/noise comments removed, HTML entities fixed, and site navigation/footer text stripped. Each document is stored as plain text with a uniform metadata header (Title / Source URL / Type / Fetched date) to support source attribution downstream.
 
 ---
 

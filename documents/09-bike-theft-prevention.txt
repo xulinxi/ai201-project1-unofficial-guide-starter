@@ -1,0 +1,38 @@
+Title: Best way to keep your bike safe?
+Source: https://www.reddit.com/r/stanford/comments/1kc0zfk/best_way_to_keep_your_bike_safe/
+Type: Reddit thread (r/stanford)
+Fetched: 2026-06-09 (via pullpush.io archive)
+---
+
+ORIGINAL POST:
+I just bought a brand new pretty pricey ebike and I'd reallyyy like it if it won't get stolen. I thought about buying a crappier less-stealable bike but the bike sales guy suggested getting a new one so it'll last longer and have fewer problems.
+
+Also I'm kinda new to biking in general so what are some useful tips? How early should I get to class so I can comfortably park in the racks? Can I store it in my dorm or does that get annoying?
+
+COMMENTS:
+
+[score 2] Duct tape an AirTag somewhere inconspicuous on it. I've had mine stolen twice in three months after midnight and Stanford Police have (beyond luckily) recovered it every time. Also, if it's a 'name' or reputable brand w/o history of battery explosions, I'd say taking just the battery inside overnight should be OK and a bit less theft-lucrative.
+
+[score 1] I've had more than one expensive e-bike stolen on campus and here are a few tips:
+
+1. Do not leave it out near one of the publicly accessible roads at night. Even if you have a lock, thieves drive up and down these roads looking for expensive bikes, where they can easily cut the locks and throw them into their cars. If you can help it, bring it into your dorm at night.
+
+2. Use a U-lock. Don't use a wire lock or one of those stringy ones, they can be cut like string. Any U-lock needs an angle grinder to cut (which some thieves carry now) so they're hard to get through. If you have the money, get a chain lock in addition to lock the hub motor wheel to the frame for extra protection. That's the most expensive part of the bike.
+
+3. See if you can hide an AirTag in it somewhere. It's a last resort, but it might help you track it down in the event it does get stolen.
+
+4. Remember if a thief wants your bike, they will find a way to take it. The safest thing you can do is keep it in areas they are unlikely to search (bike parking areas not near main roads) or inside your dorm.
+
+[score 1] 1) never leave it unlocked, even if you're gone for 10 sec
+2) bring it inside if you can
+3) careful about leaving it out overnight
+4) buy a good u-lock and maybe a cable too, don't get lazy with locking it up
+5) generally daytime is okay. Night is when it gets sketchy
+
+[score 1] Register your bike at bikeindex.org in case it gets stolen/misplaced and also get insurance.
+
+[score 1] Get a chain lock. The Kryptonite Fahgettaboudit lock is what I use. You can lock it to trees that way and there's no way cutters will get through it. It being a chain makes it harder to grind too.
+
+[score 1] And lock it TO THE RACK! I've seen bikes "locked" but they missed going through a part of the rack which defeats the purpose of the lock.
+
+[score 1] NOTE ON DORM STORAGE: Stanford housing policy prohibits e-bikes inside residences. From the R&DE residence agreement: "Devices with large batteries, such as electric bicycles, hoverboards, scooters, etc., are prohibited inside any university residence due to the possibility of fires associated with overheating while charging." (https://rde.stanford.edu/studenthousing/residence-agreement-policies-and-procedures-2025-26) Several commenters debated this: some students keep e-bikes inside anyway because outdoor overnight storage nearly guarantees theft, while others pointed out the lithium battery fire risk to everyone in the building. One compromise suggested: lock the bike outside but bring just the battery indoors overnight, which also makes the bike less attractive to thieves. UL-certified batteries are safer than unregulated cheap batteries.

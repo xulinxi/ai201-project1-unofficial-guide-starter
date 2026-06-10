@@ -1,0 +1,42 @@
+Title: Looking for Practical Course Planning Advice for QR Track (Stanford Math + CS Coterm)
+Source: https://www.reddit.com/r/stanford/comments/1kgznfz/looking_for_practical_course_planning_advice_for/
+Type: Reddit thread (r/stanford)
+Fetched: 2026-06-09 (via pullpush.io archive)
+---
+
+ORIGINAL POST:
+Hi all, I came across a QR prep guide (thanks to whoever made that—super helpful), but I'm struggling with actually planning out the courses in a way that's doable unit-wise. I sketched out a rough plan, but it's overloaded and I'm not sure how to prioritize or balance it.
+
+Interests: Quant Research, Probability, Blockchain, Analysis, AI/ML, Finance
+
+Planned Schedule So Far:
+Frosh Fall: MATH 61CM (5), MATH 104 (5), CS 106B (5)
+Frosh Winter: MATH 62CM (5), MATH 151 (5), CS 161 (5)
+Frosh Spring: MATH 63DM (5), MATH 158 (4), CS 205L (3)
+Soph Fall: EE 263 (3), CS 230 (4), MATH 172 (4), MATH 230A (3)
+Soph Winter: EE 364A (3), CS 229 (4), STATS 200 (4)
+Soph Spring: MATH 175 (4), STATS 203 (3), ...
+
+I'm a math major planning to coterm in CS. I did a lot of proof-based math in high school through dual enrollment at a state university but no olympiad background. How would you restructure this to be more realistic (unit-wise and workload-wise) while still staying QR-aligned?
+
+COMMENTS:
+
+[score 1] You're not giving yourself room to explore, and lots of these classes are quite frankly pretty useless for industry work. Even within QR, there are different paths one can take (for example, an alpha quant working on statistical arbitrage would want really good linear algebra and statistical methodology skills, while an execution quant might want C++, trading intuition, understanding statistical pitfalls, etc.).
+
+That being said, getting a quant job out of undergrad is a tail outcome even for Stanford students—there are less than 300 "good" new grad seats available across all firms. Don't put all your eggs in this basket, especially before you truly understand your academic ability and affinity for empirical research.
+
+My advice: none of the things you've listed, besides probability and maybe mathematical finance, require the 60-series. It's cool to go and meet people there, everyone is smart in that class, but it's a huge time sink. I wouldn't do the 60 series, and instead start off with broad classes like 106B, ENGR 108, EE 263. Spend a lot of time actually exploring empirical research, reach out to labs once you've taken enough classes to be able to talk high-level about interesting problems in a domain.
+
+[score 1] hard disagree about the 60 series. I would argue that if you have a genuine shot at getting QR straight out of undergrad, then you will not find the 60 series to be a huge time sink. Those were my fav classes throughout my entire undergrad and a lot of the friends I made in those classes are some of my best friends to this day.
+
+[score 1] I mean, data doesn't lie — 61CM is a median 20ish hour course, and that is conditioning on the folks that stay in the class. That is a lot for a freshman with varied interests. I'm not saying you should fear the course, nor that you can't handle it. I'm saying that your time is incredibly constrained in college, especially as a freshman. If you're not super interested in analysis and/or have a bunch of applied interests, there's almost always something better to do.
+
+[score 1] I strongly disagree with this take as well. I had never seen the material and I am most certainly not some genius and there were others in the same boat who did find the course particularly time intensive. We took it with normal 18-20 unit heavy course loads. I think you should do 61 no matter what if you are interested in math or CS tbh and I enjoyed 62cm, 63dm as well. The courses have developed a reputation based on fear that isn't really accurate.
+
+[score 1] ENGR 108 is a different flavor than Math 104. It's a breadth-first class with an emphasis on optimization and statistics. IMO it will be more useful as a kickoff point for QR than Math 104. 104 is more of a traditional "engineering linear algebra" class, which focuses on stuff like writing out steps for LU decompositions and Gram-Schmidt. I don't think this choice of course matters; your terminal linear algebra course should be an EE263 or a CME302 anyway, for your interests. Math 113 is also an option if you want more theoretical stuff, and might be useful in preparation for 175.
+
+[score 1] On a more serious note, you don't need to be "QR-aligned", take some time here, you're not getting a QR job frosh summer. There are plenty of online resources that will be better than the majority of courses here for quant recruiting.
+
+[score 1] Perhaps look at the "Finance" link at https://mathematics.stanford.edu/academics/undergraduate-students/math-major/sample-course-plans
+
+[score 1] Class of 29, I presume? All great questions to ask once your feet hit the ground. Find an upperclassman in your space. Also, keep in mind that things change. Classes change, and your interests may change. There's no need to have 4 years mapped out the summer before you begin.

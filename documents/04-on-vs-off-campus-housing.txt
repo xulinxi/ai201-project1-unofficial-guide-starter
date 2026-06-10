@@ -1,0 +1,32 @@
+Title: Which is better: on-campus or off-campus accommodation?
+Source: https://www.reddit.com/r/stanford/comments/1k4ypka/which_is_better_oncampus_or_offcampus/
+Type: Reddit thread (r/stanford)
+Fetched: 2026-06-09 (via pullpush.io archive)
+---
+
+ORIGINAL POST:
+Hi everyone! I'm going to be joining Stanford this Fall 2025 for grad school and wanted to get some advice on housing. Right now I'm leaning towards on-campus since it seems convenient (even though it's kind of pricey, it still feels worth it for the ease). That said, I'm also open to off-campus — but only if the commute is around 30 minutes max one way. Social life-wise, I'm not super big on parties or crazy hangouts, so I'm okay with a moderate or even low-key social circle. My main focus will be studies and research, so peace matters a bit more to me.
+
+And if I want to explore off-campus accommodations but keep my budget around $800-$1000, is there any place you'd recommend that's safe and not too rundown? Or is that range kind of unrealistic?
+
+Anything else you wish you knew before moving in or deciding between on/off campus would be super helpful too. Also, another quick question — can I apply for TA/RA roles before I start, or is it possible only once I am on campus?
+
+COMMENTS:
+
+[score 3] That range is really unrealistic off campus unless you were looking to share a bedroom and/or be lucky to find a giant house that people share (like 5-7 people per home) and maybe even a tiny bedroom there but sharing everything else. Even really bad parts of the bay area are going to run way more than $1000 if you are trying to find your own place.
+
+On campus is absolutely the way to go. A few things to keep in mind. It sounds like you do not have a car. If you are doing public transportation, prepare for any commute to be up to an hour and more if you don't connect it correctly. It is also costly if you use CalTrain and BART. You could also bike, but this isn't that great when it's raining and you show up to class sweaty and gross (you would have to add time to shower at Arrillaga Rec or something like that) if you are commuting on bike from a long distance.
+
+I also want to add, the on campus pricing *includes* all utilities, including high speed internet. I'm not sure if you have heard but utility bills in the Bay Area have skyrocketed due to PG&E's lawsuits and in general, inflation. Not having to pay any utilities is a huge savings. And you will be within walking distance of all your classes. Even the farthest on campus grad housing is no more than a 20-25 minute walk to campus, much less if you bike.
+
+In rare cases you can start research/get paid before you start, but this is usually arranged as part of a PhD admissions package. It sounds like you are a Masters student, as PhD students generally have their funding already lined up.
+
+[score 1] $800-$1,000/month is NOT REALISTIC. You need to factor in utilities. Rents close by to Stanford are crazy high. I suppose it might be possible if you have a ton of roommates, but that comes with a huge amount of headaches - messy roommates, people who don't pay their bills, bad living arrangements, etc.
+
+[score 1] On Campus by far. It's actually inexpensive relative to the surroundings. I don't care for parties either, but living here also fosters collaboration and network-building. I imagine the TA/RA thing varies by department.
+
+[score 1] On campus is preferred. You mentioned wanting to focus on your research but a big advantage of Stanford is the connections. Being on-campus will foster those connections with other grad students.
+
+[score 1] on campus is probably better. but if you do live off campus, you could qualify for free Caltrain!
+
+[score 1] It really depends on the department, and generally, all TA-ships will go to PhD students first... in the humanities and social sciences this will be basically it. For the hard sciences and engineering, after the PhD students, they will give remaining TA-ships to the top MS students, faculty will also rank their top candidates - for the Fall, the hiring for this has already been done or is right around now (coming from CS here, other departments might be later). Do you see an application out for your discipline? If so, you could apply and contact the department coordinator to ask. From what I remember, it was incredibly competitive, and the TA-ships I got in MSCS were professors I knew from my PhD program.
