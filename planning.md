@@ -53,7 +53,7 @@
 
 **Reasoning:** The corpus has two shapes with different needs. In the threads, key facts concentrate in single comments — the R&DE theme-house rule (doc 06, ~430 chars), the 4-point bike-theft answer (doc 09, ~1,100 chars), the housing cost breakdown (doc 04, ~1,600 chars) — and these are exactly what the evaluation questions depend on. A fixed split (e.g., 500 chars / 200 overlap) would carve each of them into 2–5 fragments, separating claims from their justifications and leaving pronoun-orphan chunks ("It's $90/year…" with "Safeway delivery" stranded in the previous chunk). Comment-level chunks keep each answer intact, keep the embedding focused on one opinion, and match the natural attribution unit (one chunk = one commenter = one citation). The long-form Daily essays are the opposite case — advice flows continuously across paragraphs — so they get conventional paragraph-window chunking with overlap. Failure signals to watch in evaluation: if retrieval returns fragments that need their neighbors to make sense, chunks are too small; if retrieved chunks match the query topic but bury the relevant sentence among unrelated opinions, chunks are too large.
 
-**Final chunk count:** (fill in after running the pipeline in Milestone 3)
+**Final chunk count:** **81** across 12 documents (predicted ~75–90). Per `python3 ingest.py`: lengths min 187 / median 523 / max 1,067 characters (the max slightly exceeds 1,000 only because the thread title is prepended after the size rules apply — still within MiniLM's ~256-token window). No empty chunks, none under 150 chars after merging, no `[score N]` markers or header metadata leaked into chunk text.
 
 ---
 
